@@ -47,3 +47,5 @@
 # a=float(input("enter a number"))
 # print(a)
 
+st="faheem"
+print(st[::-1])
