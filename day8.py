@@ -46,7 +46,4 @@
 
 # a=float(input("enter a number"))
 # print(a)
-# lt = ['wasiq','Umer',12,32,89,True]
 
-# for el in lt:
-#   print(el)
