@@ -10,20 +10,21 @@
 
 # ######################## END #########################
 
- ############################### Star Traingle #######################
+ ############################### Star Triangle #######################
 
 # n=5
 # for i in range(0,5):
 #     print("*"*i)
 # # ######################## END #########################
 
-#  ############################### Reverse Star Traingle #######################
+#  ############################### Reverse Star Triangle #######################
 # x=5
 # for i in range(5,0,-1):
 #     print("*"*i)
 # ######################## END #########################
 
 ######################### Error handling ###################
+
 ########################### zero division error #####################
 try:
     print(10/0)
@@ -36,34 +37,56 @@ try:
     print(st)
 except AttributeError:
     print("No such feature exists")
+# ######################## END #########################
+
+########################### Indentation error #####################
 # try:
 #     age=13
 #     if age>18:
 #     print("adult")
 # except IndentationError:
 #     print("indentation wrong")
+# ######################## END #########################
+
+########################### Index error #####################
+
 try:
     lt=["hello",20,30]
     print(lt[5])
 except IndexError:
     print("index does not exist")
+# ######################## END #########################
+
+########################### Type error #####################
 
 try:
     print(10+"hello")
 except TypeError:
     print("cant add string to integer")
 
+# ######################## END #########################
+
+########################### Value error #####################
+
 try:
     a=int(input("Enter a number: "))
     print(a)
 except ValueError:
     print("cant convert string to int")
+
+# ######################## END #########################
+
+########################### Syntax error #####################
 # try:
 #     n=5'
 #     print(n)
 # except SyntaxError:
 #     print("hi")
+# ######################## END #########################
+
+########################### Name error #####################
 try:
     print(n)
 except NameError:
     print("varible not defined")
+# ######################## END #########################
