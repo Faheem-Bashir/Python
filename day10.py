@@ -85,8 +85,9 @@ except ValueError:
 # ######################## END #########################
 
 ########################### Name error #####################
-try:
-    print(n)
-except NameError:
-    print("varible not defined")
+# try:
+#     print(n)
+# except NameError:
+#     print("variable not defined")
 # ######################## END #########################
+

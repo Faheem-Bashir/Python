@@ -1,13 +1,18 @@
+######$###### Check if a number is in list or not #####################################
+
 lt=[10,22,68,88,18]
 n=int(input("Enter a number: "))
 flag=0
 for i in lt:
     if n==i:
-        flag=1
+     flag=1
+    break
 if flag==1:
     print(n,"is in the list")
 else:
     print(n,"is not in the list")
+
+################### Check if a number is prime or not #####################################
 
 x=int(input("Enter a number: "))
 if x<=1:
@@ -16,9 +21,10 @@ else:
     for i in range(2,x):
         if x%i==0:
             print(x,"is not prime")
-            break
+            break  ############# exist the loop #########
     else:
         print(x,"is prime")
+###### Check if a key exists in dictionary or not #####################################
 
 dt={
     "name":"faheem",
@@ -32,4 +38,6 @@ for key,value in dt.items():
         break
 else:
         print("Key not found")
-    
+
+
+
